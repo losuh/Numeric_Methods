@@ -53,4 +53,4 @@ for i in range(l - 1, -1, -1):
     for j in range(i + 1, l):
         s += U[i, j] * x[j]
     x[i] = (z[i] - s) / U[i][i]
-print("Решение системы (компоненты x по порядку):", x)
+print("Решение системы:", x)

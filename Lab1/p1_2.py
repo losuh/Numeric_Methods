@@ -44,4 +44,4 @@ x = np.array([0] * n, dtype=float)
 x[n - 1] = Q[n - 1]
 for i in range(n - 2, -1, -1):
     x[i] = P[i] * x[i + 1] + Q[i]
-print("Решение системы (компоненты x1, x2, x3, x4, x5):", x)
+print("Решение системы:", x)
